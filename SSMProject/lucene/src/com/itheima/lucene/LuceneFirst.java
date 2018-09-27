@@ -38,9 +38,6 @@ public class LuceneFirst {
         indexReader = DirectoryReader.open(directory);
     }
 
-    public void  test(){
-        System.out.println("2222222222222");
-    }
 
     @Test
     public void testCreateIndex() throws IOException {
