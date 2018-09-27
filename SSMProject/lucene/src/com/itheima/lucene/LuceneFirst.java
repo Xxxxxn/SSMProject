@@ -38,6 +38,10 @@ public class LuceneFirst {
         indexReader = DirectoryReader.open(directory);
     }
 
+    public void  test(){
+        System.out.println("2222222222222");
+    }
+
     @Test
     public void testCreateIndex() throws IOException {
         //1）创建目录，在代码中创建一个Directory对象，指定索引库保存的目录。
